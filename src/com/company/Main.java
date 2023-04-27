@@ -17,11 +17,12 @@ public class Main {
         int Nfactura = 0;
         int NumeroDeFrascos = 0;
 
+        // pequeño ejemplo de lectura desde teclado
 
         System.out.println("Ingresar nuevo pedido:");
         System.out.println("[1] SI");
         System.out.println("[0] NO");
-
+        // obtenemos valor desde teclado con scan.nextInt();
         int opcion1 = scan.nextInt();
 
         while(opcion1 !=0){
